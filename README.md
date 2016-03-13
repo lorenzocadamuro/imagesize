@@ -14,8 +14,9 @@ bower install imagesize
 ```javascript
 var image = document.getElementById('foo');
 
-imagesize(image, function(image) {
-  console.log('Success', image.width, image.height);
+// the first parameter might be also a url
+imagesize(image, function(data) {
+  console.log('Success', data.width, data.height);
 }, function() {
   console.log('Error');
 });
