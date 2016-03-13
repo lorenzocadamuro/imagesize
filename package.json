@@ -1,0 +1,31 @@
+{
+  "name": "imagesize",
+  "version": "1.0.0",
+  "description": "Retrieve width and height of an image before it is completely loaded",
+  "main": "imagesize.js",
+  "scripts": {
+    "lint": "eslint imagesize.js",
+    "prebuild": "npm run lint",
+    "build": "uglifyjs imagesize.js > imagesize.min.js"
+  },
+  "keywords": [
+    "image",
+    "size",
+    "width",
+    "height",
+    "loaded"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenzocadamuro/imagesize"
+  },
+  "author": "Lorenzo Cadamuro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorenzocadamuro/imagesize/issues"
+  },
+  "homepage": "https://github.com/lorenzocadamuro/imagesize",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}

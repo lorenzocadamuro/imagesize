@@ -1,0 +1,19 @@
+{
+  "name": "imagesize",
+  "version": "1.0.0",
+  "homepage": "https://github.com/lorenzocadamuro/imagesize",
+  "authors": [
+    "Lorenzo Cadamuro"
+  ],
+  "description": "Retrieve width and height of an image before it is completely loaded",
+  "main": "imagesize.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
