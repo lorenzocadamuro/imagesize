@@ -1,5 +1,6 @@
 # Imagesize
 Retrieve width and height of an image before it is completely loaded.
+
 Module uses ES6 Promises. I raccomend the polyfill https://github.com/stefanpenner/es6-promise
 
 ## Install
